@@ -1,7 +1,7 @@
-score = int(input('試験の点数を入力してください >>'))
-if score >= 60:
-    print('合格！')
-    print('よく頑張りましたね')
+name = input('あなたの名前を教えて下さい >>')
+print(f'{name}さんこんにちは')
+food = input(f'{name}さんの好きな食べ物を教えて下さい >>')
+if 'カレー' in food:
+    print('素敵です。カレーは最高ですよね!!')
 else:
-    print('残念ながら不合格です')
-    print('追試を受けてください')
+    print(f'私も{food}が好きですよ')
